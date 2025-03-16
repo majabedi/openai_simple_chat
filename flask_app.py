@@ -12,6 +12,7 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 # Index route: The index route ('/') renders a template called "index.html" using the render_template() function.
 @app.route("/")
 def index():
+    print("started Index rendering")
     return render_template("index.html")
 
 # Answer route: The '/answer' route is used to generate a response based on user input. 
