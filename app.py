@@ -63,5 +63,5 @@ def download():
 # Running the app: The if __name__ == "__main__": statement ensures that the app is only run if the script is executed directly, and not if it is imported as a module. 
 # The app.run() function starts the Flask development server on the local host and enables debug mode.
 if __name__ == "__main__":
-    print("Main Started")
+    print("Main Started!")
     app.run()
